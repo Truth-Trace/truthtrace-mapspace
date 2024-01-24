@@ -1,0 +1,81 @@
+/* styles.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #f3e4d7;
+}
+
+/* height and width of the container */
+.leaflet-container {
+  height: 70vh; /* Adjusted height */
+  width: 100%; /* Full width */
+  border-radius: 2rem;
+}
+
+.cluster-icon {
+  background-color: #333;
+  height: 2em;
+  width: 2em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  box-shadow: 0 0 0px 5px #fff;
+}
+
+/* Form container styles */
+.FormContainer {
+  margin-top: 20px;
+}
+
+/* Form styles */
+.FormContainer form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Input label styles */
+.FormContainer label {
+  margin-bottom: 8px;
+}
+
+/* Input styles */
+.FormContainer input {
+  padding: 10px; /* Increased padding */
+  margin-bottom: 16px; /* Increased margin */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+.FormContainer button {
+  padding: 12px; /* Increased padding */
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.FormContainer button:hover {
+  background-color: #45a049;
+}
