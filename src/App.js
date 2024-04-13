@@ -57,9 +57,9 @@ export default function App() {
           ))}
         </MarkerClusterGroup>
       </MapContainer>
-
+      
+      <h2 className="heading2">Add Marker</h2>
       <div className="FormContainer">
-        <h2>Add Marker</h2>
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -73,22 +73,22 @@ export default function App() {
           }}
         >
           <label>
-            Latitude:
-            <input type="text" name="latitude" />
+            Latitude: <br />
+            <input type="text" name="latitude" placeholder="Enter Latitude" />
           </label>
           <label>
-            Longitude:
-            <input type="text" name="longitude" />
+            Longitude: <br />
+            <input type="text" name="longitude" placeholder="Enter Longitude" />
           </label>
           <label>
-            Popup Text:
-            <input type="text" name="popup" />
+            Popup Text: <br />
+            <input type="text" name="popup" placeholder="Enter Popup Text" />
           </label>
           <label>
-            Link:
-            <input type="text" name="link" />
+            Link:   <br />
+            <input type="text" name="link" placeholder="Enter Link" />
           </label>
-          <button type="submit">Add Marker</button>
+          <button type="submit">ADD MARKER</button>
         </form>
       </div>
     </div>
