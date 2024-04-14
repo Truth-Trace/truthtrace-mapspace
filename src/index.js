@@ -8,7 +8,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <h1>React Leaflet Tutorial</h1>
+    <h1 className="heading1">Lawyers Around You</h1>
     <App />
   </StrictMode>
 );
